@@ -40,7 +40,7 @@ View [Live] ( https://github.com/nzyokifred/Buy-pizza)
 1. GIT
 # Contact information
 You can reach me through my E-mail address
- - ( brayokarush@gmail.com)
+ - ( nzyokifred@gmail.com)
 # Licence And Copyright Information
  - Copyright 2021 Brian Karu.
 
