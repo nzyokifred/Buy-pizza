@@ -1,0 +1,46 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    body {
+        color: blue;
+        background-color: black;
+    }
+    
+    .nav-item {
+        color: white;
+    }
+    
+    #footer {
+        padding-left: 40%;
+    }
+    
+    #nav-bar,
+    #footer {
+        background-color: lightblue;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    #nav-bar a,
+    #footer {
+        color: black;
+    }
+    
+    #pizza-img {
+        height: 150px;
+        width: auto;
+    }
+    
+    #delivery {
+        background-color: lightgray;
+    }
+    
+    table,
+    #deliveryfee,
+    .order-btn,
+    .checkout {
+        display: none;
+    }
