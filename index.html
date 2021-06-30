@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Buy pizza</title>
+</head>
+
+<body>
+    <div class="container-fluid" id="nav-bar">
+        <nav class="navbar navbar-expand-lg navbar-light bg-red">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Buy pizza</a>
+                <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                <div class="navbar-collapse justify-content-end collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#orders">Orders</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Signup</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Login</a>
+                        </li>
+
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+
+    </div>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-8">
+                <div class="pizza-types">
+                    <h3>Pizza Types</h3>
+                    <div class="items mt-4">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="card h-80">
+                                    <img src="./images/Hawaiian.jpeg" id="pizza-img" class="card-img-top" alt="">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Hawaiian</h4>
+                                        <p class="card-text">Ksh. 600 - 1300</p>
+                                    </div>
+                                    <div class="card-footer">
+                                        <small class="text-muted">
+                                            <button type="submit" id="hawaiian-btn" data-bs-toggle="modal" data-bs-target="#myModal">View</button>
+                                        </small>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card h-80">
+                                    <img src="./images/Veggie.jpeg" id="pizza-img" class="card-img-top" alt="">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Veggie</h4>
+                                        <p class="card-text">Ksh. 600 - 1200</p>
+                                    </div>
+                                    <div class="card-footer">
+                                        <small class="text-muted">
+                                            <button type="submit" id="Veggie-btn" data-bs-toggle="modal" data-bs-target="#myModal">View</button>
+                                        </small>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card h-80">
+                                    <img src="./images/peperoni.jpeg" id="pizza-img" class="card-img-top" alt="">
+                                    <div class="card-body">
+                                        <h4 class="card-title">peperoni</h4>
+                                        <p class="card-text">Ksh. 600 - 1200</p>
+                                    </div>
+                                    <div class="card-footer">
+                                        <small class="text-muted">
+                                            <button type="submit" id="peperoni-btn" data-bs-toggle="modal" data-bs-target="#myModal">View</button>
+                                        </small>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card h-80">
+                                    <img src="./images/Bbq chicken.jpeg" id="pizza-img" class="card-img-top" alt="">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Bbq chicken</h4>
+                                        <p class="card-text">Ksh. 500 - 1200</p>
+                                    </div>
+                                    <div class="card-footer">
+                                        <small class="text-muted">
+                                            <button type="submit" id="bbq-chicken-btn" data-bs-toggle="modal" data-bs-target="#myModal">View</button>
+                                        </small>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card h-80">
+                                    <img src="./images/Bbq beef.jpeg" id="pizza-img" class="card-img-top" alt="">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Bbq Beef</h4>
+                                        <p class="card-text">Ksh. 600 - 1100</p>
+                                    </div>
+                                    <div class="card-footer">
+                                        <small class="text-muted">
+                                            <button type="submit" id="bbq-beef-btn" data-bs-toggle="modal" data-bs-target="#myModal">View</button>
+                                        </small>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card h-80">
+                                    <img src="./images/chicken tikka.jpeg" id="pizza-img" class="card-img-top" alt="">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Chicken Tikka</h4>
+                                        <p class="card-text">Ksh. 500 - 1300</p>
+                                    </div>
+                                    <div class="card-footer">
+                                        <small class="text-muted">
+                                            <button type="submit" id="chiken-tikka-btn" data-bs-toggle="modal" data-bs-target="#myModal">View</button>
+                                        </small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-1"></div>
+            <div class="col-md-3">
+                <div class="cart-header">
+                    <h3>Pizza Orders</h3>
+                </div>
+                <div class="orders mt-4" id="orders-display">
+                    <div class="total">
+                        <p id="notordered">You have not selected any item.</p>
+                        <table class="table table-striped">
+                            <thead>
+                                <tr>
+                                    <th scope="col">Name</th>
+                                    <th scope="col">Size</th>
+                                    <th scope="col">Crust</th>
+                                    <th scope="col">Toppings</th>
+                                    <th scope="col">Price</th>
+                                </tr>
+                            </thead>
+                            <tbody id="total-orders">
+                                <tr>
+                                    <td id="pizzaname"></td>
+                                    <td id="pizzasize"></td>
+                                    <td id="pizzacrust"></td>
+                                    <td id="pizzatopping"></td>
+                                    <td id="pizzaprice"></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <p id="pizzatotalprice"></p>
+                        <p id="deliveryfee">The Delivery fee is: Ksh.200</p>
+                    </div>
+                    <div class="order-btn">
+                        <button form="checkoutfrm" id="proceedbtn" type="submit">Proceed to Checkout</button>
+                    </div>
+                </div>
+                <div class="checkout mt-5">
+                    <form id="checkoutfrm">
+                        <div class="form-row align-items-center">
+                            <div class="col-auto">
+                                <label class="sr-only" for="username">Name</label>
+                                <input type="text" class="form-control mb-2" id="username" placeholder="Your name">
+                            </div>
+                            <div class="col-auto">
+                                <label class="sr-only" for="phone">Phone Number</label>
+                                <input type="text" class="form-control" id="phone" placeholder="Phone Number">
+                            </div>
+                            <div class="col-auto">
+                                <label class="sr-only" for="location">location</label>
+                                <input type="text" class="form-control" id="location" placeholder="Location">
+                            </div>
+                        </div>
+                        <div class="col-auto">
+                            <button type="submit" id="checkbtn" class="mt-3">Place Order</button>
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel"><span id="orderName"></span></h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form id="myOrders">
+                        <h5>Choose The size of your Pizza</h5>
+                        <div class="form-check">
+                            <div class="row">
+                                <div class="col">
+                                    <input class="form-check-input" type="radio" name="size" id="small" value="small">
+                                    <label class="form-check-label" for="small">Small</label>
+                                </div>
+                                <div class="col">
+                                    <span id="small-price"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-check">
+                            <div class="row">
+                                <div class="col">
+                                    <input class="form-check-input" type="radio" name="size" id="medium" value="medium">
+                                    <label class="form-check-label" for="large">Medium</label>
+                                </div>
+                                <div class="col">
+                                    <span id="medium-price"></span>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="form-check">
+                            <div class="row">
+                                <div class="col">
+                                    <input class="form-check-input" type="radio" name="size" id="large" value="large">
+                                    <label class="form-check-label" for="large">Large</label>
+                                </div>
+                                <div class="col">
+                                    <span id="large-price"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Toppings choices -->
+                        <h5>Choose Your Toppings</h5>
+                        <div class="form-check">
+                            <div class="row">
+                                <div class="col">
+                                    <input class="form-check-input" type="radio" name="topping" id="mozzarella" value="mozzarella">
+                                    <label class="form-check-label" for="small">Mozzarella</label>
+
+
+                                </div>
+                                <div class="col">
+                                    <span id="mozzarella-price"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-check">
+                            <div class="row">
+                                <div class="col">
+                                    <input class="form-check-input" type="radio" name="topping" id="fetta" value="fetta">
+                                    <label class="form-check-label" for="fetta">Fetta Cheese</label>
+                                </div>
+                                <div class="col">
+                                    <span id="fetta-price"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-check">
+                            <div class="row">
+                                <div class="col">
+                                    <input class="form-check-input" type="radio" name="topping" id="onions" value="onions">
+                                    <label class="form-check-label" for="onions">Caramelized Onions</label>
+                                </div>
+                                <div class="col">
+                                    <span id="onions-price"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Crust choices -->
+                        <h5>Choose Your Crust</h5>
+                        <div class="form-check">
+                            <div class="row">
+                                <div class="col">
+                                    <input class="form-check-input" type="radio" name="crust" id="crispy" value="crispy">
+                                    <label class="form-check-label" for="small">Crispy</label>
+                                </div>
+                                <div class="col">
+                                    <span id="crispy-price"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-check">
+                            <div class="row">
+                                <div class="col">
+                                    <input class="form-check-input" type="radio" name="crust" id="stuffed" value="stuffed">
+                                    <label class="form-check-label" for="stuffed">Stuffed</label>
+                                </div>
+                                <div class="col">
+                                    <span id="stuffed-price"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-check">
+                            <div class="row">
+                                <div class="col">
+                                    <input class="form-check-input" type="radio" name="crust" id="gluten" value="gluten-free">
+                                    <label class="form-check-label" for="gluten-free">Gluten-free</label>
+                                </div>
+                                <div class="col">
+                                    <span id="gluten-price"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-check mt-3">
+                            <div class="row">
+                                <div class="col">
+                                    <h4>Total : </h4>
+                                </div>
+                                <div class="col">
+                                    <h4>Ksh.</h4><span id="totalPrice"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="submit" form="myOrders" class="btn btn-primary" id="add">Add</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid mt-5" id="delivery">
+        <div class="text-center p-3">
+            <div class="row">
+                <div class="col-md-8 pb-4">
+                    <h3 class="pb-4">Send us a message or comment...</h3>
+                    <form action="">
+                        <div class="md-form">
+                            <textarea name="" id="" cols="30" rows="4" placeholder="Your message here..."></textarea>
+                        </div>
+                        <button type="submit">Submit</button>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class=" text-center text-lg-start" id="footer">
+        <div class="contact text-center p-3"></div>
+        <div class="text-center p-3">
+
+            <div class="col-md-4">
+                <p> © 2021 Copyright: Fred Nzyoki</p>
+
+            </div>
+        </div>
+    </footer>
+    <script src="./js/jquery.js"></script>
+    <script src="./js/script.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+</body>
+
+</html>
