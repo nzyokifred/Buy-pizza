@@ -2,7 +2,7 @@
  - Buy-pizza
 # Project Description
  - A web application where customers order different sizes of pizzas with one or more toppings and then check out and receive their total billing.
--  ![picture](https://images.pexels.com/photos/1596888/pexels-photo-1596888.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940)
+-  ![picture](https://www.google.com/search?q=pizza+images&sxsrf=ALeKk011NgfAHod1CTVDwb932_Ly8C5Nng:1625034978530&tbm=isch&source=iu&ictx=1&fir=X6U_GXn9QuhaqM%252CYKJEBKgV-Pd1RM%252C_&vet=1&usg=AI4_-kS3DvOf4aRc1qT5AcNls4QnggGrvw&sa=X&ved=2ahUKEwjryJGF377xAhUNzIUKHbw8D7gQ9QF6BAgHEAE#imgrc=X6U_GXn9QuhaqM)
 # Author(s) information
  - Brian Karu.
 # Prerequisities
