@@ -20,7 +20,7 @@ To access this project on your local files, you can clone it using these steps
 ## User Stories 
 ### As as customer, one will be able to do the following,
 
-- Choose the size of pizza I want e.g Small, Medium, Large
+- Choose the size of pizza I want e.g Small, Medium, Large.
 - Choose what kind of crust I would like the pizza to have e.g Crispy, Stuffed, Gluten-free
 - Choose the topping(s) I want on my pizza.
 - Place an order for my Pizza and see the total charge for it.
