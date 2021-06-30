@@ -37,10 +37,3 @@
     #delivery {
         background-color: lightgray;
     }
-    
-    table,
-    #deliveryfee,
-    .order-btn,
-    .checkout {
-        display: none;
-    }
