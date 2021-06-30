@@ -2,7 +2,7 @@
  - Buy-pizza
 # Project Description
  - A web application where customers order different sizes of pizzas with one or more toppings and then check out and receive their total billing or oders.
--  ![picture](https://www.google.com/search?q=pizza+images&sxsrf=ALeKk011NgfAHod1CTVDwb932_Ly8C5Nng:1625034978530&tbm=isch&source=iu&ictx=1&fir=X6U_GXn9QuhaqM%252CYKJEBKgV-Pd1RM%252C_&vet=1&usg=AI4_-kS3DvOf4aRc1qT5AcNls4QnggGrvw&sa=X&ved=2ahUKEwjryJGF377xAhUNzIUKHbw8D7gQ9QF6BAgHEAE#imgrc=X6U_GXn9QuhaqM)
+-  ![picture](https://www.google.com/imgres?imgurl=https%3A%2F%2Fcdn.britannica.com%2F08%2F177308-050-94D9D6BE%2FFood-Pizza-Basil-Tomato.jpg&imgrefurl=https%3A%2F%2Fwww.britannica.com%2Fstory%2Fwhy-is-pizza-so-popular-in-the-us&tbnid=N9-K30QdmVFhTM&vet=12ahUKEwjz6aWD5L7xAhUH-BoKHRp4DtYQMygIegUIARD-AQ..i&docid=gcGO5KyYsy4RkM&w=1600&h=1067&q=pizza%20images&ved=2ahUKEwjz6aWD5L7xAhUH-BoKHRp4DtYQMygIegUIARD-AQ)
 # Author(s) information
  - Fred Nzyoki.
 # Prerequisities
