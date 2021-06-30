@@ -30,7 +30,7 @@ To access this project on your local files, you can clone it using these steps
 - See a checkout button that when clicked shows the total amount charged for the orders.
 
 # Live Site
-View [Live] ( https://github.com/Karuu-01/Pizza-Hut)
+View [Live] ( https://github.com/nzyokifred/Buy-pizza)
 # Technologies Used
 1. HTML
 1. CSS
